@@ -1,0 +1,28 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+    <article class="media content-section row mt-3" style="border-top-left-radius: 2% 10%;
+    border-top-right-radius: 2% 10%;
+    border-bottom-right-radius: 2% 10%;
+    border-bottom-left-radius: 2% 10%;
+    display: flex;">
+
+        <img class="rounded-circle col-4" src="{{ object.author.profile.image.url }}" alt="profile pic" style="width: 90; height: 60;">
+        <div class="media-body col-4" style="flex: 60%;">
+            <div class="articles-metadata">
+                <a href="{% url 'user-posts' object.author.username%}">{{ object.author }} </a>
+                <small class="text-muted">{{ object.date_posted|date:" F d, Y" }}</small>
+                {% if object.author == user %}
+                <a href="{% url 'post-update' object.id %}">Update</a>
+                <a href="{% url 'post-delete' object.id %}">Delete</a>
+                {% endif %}
+            </div>
+            <h2 class="article-title">{{ object.title }}</h2>
+            <p>{{ object.content|linebreaksbr }}</p>
+        </div>
+        <div class="col-4" style="flex: 10%;">
+            
+        </div>
+    </article>
+</div>
+{% endblock %}
