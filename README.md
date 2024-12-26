@@ -41,3 +41,17 @@ and enter username, email, password for superuser.
 
 
 Now login using superuser credentials and now you can manage your site.
+
+![Capture](https://github.com/user-attachments/assets/4433ad37-98fb-4503-b42f-3de1447be12d)
+
+![Capture 2](https://github.com/user-attachments/assets/4c20c10e-046c-4dd0-ae0c-85c6678573fc)
+
+![Capture 3](https://github.com/user-attachments/assets/9d4b8386-000d-4d9e-a9dd-612f07787d90)
+
+![Capture 4](https://github.com/user-attachments/assets/95b8fb6f-ba78-4bbc-956e-6ddcbb7cf700)
+
+![Capture 5](https://github.com/user-attachments/assets/f943e1c9-3fc3-4c2c-93f4-57ac26b737db)
+
+![Capture 6](https://github.com/user-attachments/assets/3c13cb9b-a842-46f2-9c30-dd0d07d85e9c)
+
+
